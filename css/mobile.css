@@ -1,0 +1,78 @@
+@media (max-width: 1024px) {
+    .infos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    @media (max-width: 768px) {
+        .foto img {
+            max-width: 80%;
+            margin-bottom: 20px;
+        }
+    }
+    .frase {
+        grid-column: span 2;
+        text-align: center;
+    }
+
+    .habilidades, .projetos, .redes-sociais, .sobre {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .infos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .frase {
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu a {
+        display: block;
+        padding: 10px;
+    }
+
+    .contato {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright {
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .footer-corpo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px; 
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+}

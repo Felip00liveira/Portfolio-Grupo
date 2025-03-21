@@ -1,0 +1,118 @@
+.corpo li {
+    font-size: 16px;
+}
+.habilidades ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.projetos ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.redes-sociais ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.corpo h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+.corpo {
+    display: flex;
+    margin:auto;
+    padding: 20px 10px;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+.projetos a {
+    text-decoration: underline;
+    color: blue;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+}
+.projetos a:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+.redes-sociais a {
+    text-decoration: underline;
+    color: blue;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+}
+.redes-sociais a:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+.frase h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.sobre {
+    text-align: center;
+}
+.sobre h1 {
+    font-size: larger;
+    font-weight: 500;
+}
+.sobre p {
+    font-size: medium;
+    font-weight: 300;
+}
+.infos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 8px;
+}
+    
+.habilidades {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+}
+
+.projetos {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.redes-sociais {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.foto {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.frase {
+    grid-column: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+.sobre {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+        
+        

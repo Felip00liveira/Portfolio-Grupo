@@ -1,0 +1,43 @@
+footer {
+    background-color: black;
+    text-align: center;
+}
+.contato p {
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.contato {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin:auto;
+    padding: 20px 10px;
+    max-width: 1200px;
+    width: 100%;
+}
+.copyright {
+    display: flex;
+    color: gray;
+    font-size: small;
+    justify-content: start;
+    margin:auto;
+    padding: 20px 10px;
+    max-width: 1200px;
+    width: 100%;
+}
+.contato {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
+}  
+.texto-contato {
+    grid-column: span 2 / span 2;
+}
+.email {
+    grid-row-start: 2;
+}
+.numero {
+    grid-row-start: 2;
+}

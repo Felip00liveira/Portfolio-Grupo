@@ -1,0 +1,35 @@
+.header {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: end;
+  font-size: large;
+}
+.menu li, a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  font-size: large;
+}
+.menu a {
+  transition: all 0.3s ease;
+  padding: 5px 10px;
+}
+.menu a:hover {
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
